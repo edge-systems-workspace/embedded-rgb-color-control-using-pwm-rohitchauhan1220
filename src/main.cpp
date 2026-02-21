@@ -14,9 +14,7 @@
 #define GREEN_PIN 10
 #define BLUE_PIN 11
 void setup() {
-
-    // TODO 4:
-    // Initialize Serial communication (9600 baud)
+    Serial.begin(9600);
 
     // TODO 5:
     // Configure RGB pins as OUTPUT
