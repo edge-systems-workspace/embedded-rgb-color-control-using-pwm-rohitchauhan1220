@@ -15,9 +15,9 @@
 #define BLUE_PIN 11
 void setup() {
     Serial.begin(9600);
-
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
+    pinMode(RED_PIN, OUTPUT);
+    pinMode(GREEN_PIN, OUTPUT);
+    pinMode(BLUE_PIN, OUTPUT);
 
     // TODO 6:
     // Print initialization message
