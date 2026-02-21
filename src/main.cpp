@@ -2,16 +2,15 @@
 /**
  * @file main.cpp
  * @brief Embedded RGB LED Control (Digital + PWM)
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Rohit Chauhan
+ * @date 2026-02-DD
  *
  * @details
  * Controls RGB LED using digital ON/OFF
  * and analog PWM brightness control.
  */
 
- // TODO 1:
- // Define RED pin (Use 9)
+#define RED_PIN 9
 
  // TODO 2:
  // Define GREEN pin (Use 10)
