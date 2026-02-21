@@ -34,17 +34,18 @@ void loop() {
     delay(1000);
 
 
-    // -------- ANALOG (PWM) MODE --------
+    analogWrite(RED_PIN, 255);   // Full brightness
 
-    // TODO 9:
-    // Set RED brightness using analogWrite()
+     analogWrite(GREEN_PIN, 100); // Medium brightness
 
-    // TODO 10:
-    // Set GREEN brightness using analogWrite()
+     analogWrite(BLUE_PIN, 50);   // Low brightness
 
-    // TODO 11:
-    // Set BLUE brightness using analogWrite()
+   delay(2000);
 
-    // TODO 12:
-    // Add delay for visible transition
+
+    analogWrite(RED_PIN, 0);
+    analogWrite(GREEN_PIN, 0);
+    analogWrite(BLUE_PIN, 0);
+    delay(1000);
+}
 }
